@@ -12,12 +12,12 @@ const decode = async (nameoradr) => {
     const dt = new Date().getTime() - lastt;
     if (dt < delay) {
       await sleep(delay - dt);
-      console.log("sleep", delay - dt);
     }
   }
+  lastt = new Date().getTime();
+  
   const url = "https://www.geocoding.jp/api/?q=" + encodeURIComponent(nameoradr);
   const xml = await (await fetch(url)).text();
-  lastt = new Date().getTime();
   const data = XML.toJSON(xml);
   //console.log(data);
   const c = data.result.coordinate;
