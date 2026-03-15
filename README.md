@@ -1,5 +1,7 @@
 # GeocodingJP
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 [Geocoding API - Search for latitude and longitude from address](https://www.geocoding.jp/api/) Geocoding API for JavaScript ES module.
 
 ## Features
