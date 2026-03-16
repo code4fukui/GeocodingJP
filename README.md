@@ -23,4 +23,4 @@ console.log(await GeocodingJP.decode("神山まるごと高専")); // { lat: 33.
 This project uses the [Geocoding API](https://www.geocoding.jp/api/) provided by [Geocoding.jp](https://www.geocoding.jp/).
 
 ## License
-This project is licensed under the MIT License.
+MIT License — see [LICENSE](LICENSE).
